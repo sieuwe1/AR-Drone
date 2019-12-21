@@ -1,6 +1,8 @@
 # AR-Drone
 Code for making a AR drone 2.0 fly above a red circle all by itself using openCV and python 2.7
 
+[![Demo](https://img.youtube.com/vi/Vgv0OpEXAWI/0.jpg)](https://www.youtube.com/watch?v=Vgv0OpEXAWI)
+
 # Installation
 1. Install Python 2.7
 2. Install OpenCV 3 for python 2.7
