@@ -211,13 +211,6 @@ while(Run):
  
     if cv2.waitKey(25) & 0xFF == ord('q'):
 	break
-        
-
-        if(InsideCircle == False):
-            drone.move(Xmovement, Ymovement, AltitudeCommand, 0)
-):
-        break
- 
 
 cv2.destroyAllWindows()
 
