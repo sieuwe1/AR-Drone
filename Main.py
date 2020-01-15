@@ -209,10 +209,8 @@ while(Run):
     cv2.imshow("Detected",frame)
     counter += 1
  
-    if cv2.waitKey(25) & 0xFF == ord('q'tAltitude - Altitude) < -80:
-            AltitudeCommand = 0.2
-        else:
-            AltitudeCommand = 0.0
+    if cv2.waitKey(25) & 0xFF == ord('q'):
+	break
         
 
         if(InsideCircle == False):
